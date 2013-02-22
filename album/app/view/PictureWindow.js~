@@ -1,0 +1,38 @@
+Ext.define("album.view.PictureWindow", {
+    extend: 'Ext.window.Window',
+
+    uses: ['album.view.PictureBrowserPanel', 'album.view.PictureDetailPanel'],
+    
+    itemId: 'pictureWindow',
+    
+    x:400,
+    y:100,
+    height: 640,
+	width: 480,
+	layout: {
+	    type: 'border'
+	},
+	title: '写真ブラウザ',
+    maximizable: true,
+    
+	initComponent: function() {
+		var me = this;
+	
+		me.items = [
+		    {
+		        xtype: 'pictureBrowserPanel',
+		        flex: 4,
+		        region: 'north',
+		        split: true
+		    },
+		    {
+		        xtype: 'pictureDetailPanel',
+		        flex: 6,
+		        region: 'center',
+		        split: true
+		    }
+		 ]
+		me.callParent(arguments);
+	}
+
+});

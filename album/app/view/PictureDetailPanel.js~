@@ -1,0 +1,50 @@
+Ext.define("album.view.PictureDetailPanel", {
+    extend: 'Ext.panel.Panel',
+    
+    alias: 'widget.pictureDetailPanel',
+    
+    itemId: 'pictureDetailPanel',
+
+    tpl: [
+		'<div class="scalablePanel" style="position:absolute;-webkit-transform-origin:left top">',
+		'    <img src="{path}{name}">',
+		'</div>',
+	],
+	autoScroll: true,
+
+	layout: {
+	    type: 'fit'
+	},
+	dockedItems: [
+	    {
+	        xtype: 'toolbar',
+	        dock: 'top',
+	        items: [
+	            {
+	                xtype: 'label',
+	                text: '選択中の写真'
+	            },
+	            {
+	                xtype: 'slider',
+	                itemId: 'sliderScale',
+	                width: 400,
+	                value: 87,
+	                fieldLabel: '拡大率',
+	                maxValue: 400
+	            }
+	        ]
+	    }
+	],
+	
+	showBand: function(x, y, w, h) {
+	
+	},
+
+	initComponent: function() {
+		var me = this;
+		
+	//	debugger;
+		
+		me.callParent(arguments);
+	}
+});

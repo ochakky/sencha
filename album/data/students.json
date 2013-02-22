@@ -1,0 +1,38 @@
+{ "data" : [
+{
+	"grade":"3年",
+	"clazz":"4組",
+	"url": "pic/personals/noimage.gif",
+	"name": "あい うえお"
+},{
+	"grade":"3年",
+	"clazz":"4組",
+    "url": "pic/personals/02.jpg",
+	"name": "かき くけこ"
+},{
+	"grade":"3年",
+	"clazz":"4組",
+	"url": "pic/personals/noimage.gif",
+	"name": "さし すせそ"
+},{
+	"grade":"3年",
+	"clazz":"4組",
+    "url": "pic/personals/04.jpg",
+	"name": "たち つてと"
+},{
+	"grade":"3年",
+	"clazz":"4組",
+    "url": "pic/personals/05.jpg",
+	"name": "なに ぬねの"
+},{
+	"grade":"3年",
+	"clazz":"4組",
+    "url": "pic/personals/06.jpg",
+	"name": "はひ ふへほ"
+},{
+	"grade":"3年",
+	"clazz":"4組",
+    "url": "pic/personals/07.jpg",
+	"name": "まみ むめも"
+}]
+}

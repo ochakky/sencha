@@ -1,0 +1,3 @@
+Ext.define('album.controller.LoginController', {
+    extend: 'Ext.app.Controller'
+});

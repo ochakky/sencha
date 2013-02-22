@@ -1,0 +1,101 @@
+select{
+    font-size:11px;
+}
+.image-tip{
+    padding:4px;
+    height:98px;
+    white-space:nowrap;
+}
+.image-tip img {
+    margin-right:10px;
+    border:2px solid #083772;
+}
+.image-tip b{
+    color: #083772;
+    display: block;
+    margin-bottom: 4px;
+}
+.image-tip span{
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.x-image-view{
+    font: 11px Arial, Helvetica, sans-serif;
+}
+.x-image-view .thumb{
+    padding:3px;
+    width:75px;
+    height:100px
+}
+
+.x-image-view .thumb img{
+    max-width:100%;
+    max-height:100%
+}
+
+.x-image-view .thumb-wrap{
+    float: left;
+    margin: 4px;
+    margin-right: 0;
+    padding: 5px;
+}
+.x-image-view .thumb-wrap span{
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    width: 76px; /* for ie to ensure that the text is centered */
+}
+
+.x-image-view .x-item-selected .thumb {
+    background:#8db2e3;
+    width:75px;
+    height:100px
+}
+.x-image-view .loading-indicator {
+    font-size:8pt;
+    background-image:url(../../resources/images/default/grid/loading.gif);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left:20px;
+    margin:10px;
+}
+
+.x-dd-drag-ghost .thumb {
+    width:75px;
+    height:100px
+}
+
+.x-dd-drag-ghost .thumb img {
+    max-width:100%;
+    max-height:100%
+}
+
+.x-dd-drag-proxy .multi-proxy .thumb-img{
+    height: 20px;
+    width: 30px;
+    margin:1px;
+}
+.x-dd-drag-proxy .thumb-img{
+    height: 60px;
+    width: 80px;
+}
+.image-node .x-tree-node-icon{
+    margin-bottom:1px;
+    height:15px;
+}
+.album-node .x-tree-node-icon, .album-btn{
+    background-image:url( ../tree/album.gif ) !important;
+}
+
+.x-dataview-draggable-ghost div {
+    width:75px;
+    height:120px
+}
+
+.x-dataview-draggable-ghost div img {
+    max-width:100%;
+    max-height:100%;
+	width: 20px;
+    margin: 0 5px 5px 0;
+}

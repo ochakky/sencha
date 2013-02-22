@@ -1,0 +1,31 @@
+[{
+    "text": "生徒情報", 
+    "cls": "folder",
+    "expanded": true,
+    "children": [{
+        "text": "1年生",
+		"cls": "folder",
+		"children": []
+    },{
+        "text": "2年生",
+		"cls": "folder",
+		"children": []
+    },{
+        "text": "3年生",
+		"cls": "folder",
+		"expanded": true,
+		"children": [{
+			"text": "1組",
+			"leaf": true
+		},{
+			"text": "2組",
+			"leaf": true
+		},{
+			"text": "3組",
+			"leaf": true
+		},{
+			"text": "4組",
+			"leaf": true
+		}]
+    }]
+}]
