@@ -37,23 +37,23 @@ Ext.define('album.view.ImageView', {
     initComponent: function() {
     	var me = this;
     	
-//    	me.mixins.dragSelector.init(me);
-//    	me.mixins.draggable.init(me, {
-//            ddConfig: {
-//                ddGroup: 'pictureDD'
-//            },
-//            ghostTpl: [
-//                '<tpl for=".">',
-//                	'<div>',
-//                    '<img src="{path}{name}" />',
-//                    '<tpl if="xindex % 4 == 0"><br /></tpl>',
-//                    '</div>',
-//                '</tpl>',
-//                '<div class="count">',
-//                    '{[values.length]} images selected',
-//                '<div>'
-//            ]
-//        });
+    	me.mixins.dragSelector.init(me);
+    	me.mixins.draggable.init(me, {
+            ddConfig: {
+                ddGroup: 'pictureDD'
+            },
+            ghostTpl: [
+                '<tpl for=".">',
+                	'<div>',
+                    '<img src="{path}{name}" />',
+                    '<tpl if="xindex % 4 == 0"><br /></tpl>',
+                    '</div>',
+                '</tpl>',
+                '<div class="count">',
+                    '{[values.length]} images selected',
+                '<div>'
+            ]
+        });
         
     	me.listeners = {
     			activate: me.log,
@@ -72,23 +72,23 @@ Ext.define('album.view.ImageView', {
     render: function(me, eopts) {
     	var me = this;
     	
-    	me.mixins.dragSelector.init(me);
-    	me.mixins.draggable.init(me, {
-            ddConfig: {
-                ddGroup: 'pictureDD'
-            },
-            ghostTpl: [
-                '<tpl for=".">',
-                	'<div>',
-                    '<img src="{path}{name}" />',
-                    '<tpl if="xindex % 4 == 0"><br /></tpl>',
-                    '</div>',
-                '</tpl>',
-                '<div class="count">',
-                    '{[values.length]} images selected',
-                '<div>'
-            ]
-        });
+//    	me.mixins.dragSelector.init(me);
+//    	me.mixins.draggable.init(me, {
+//            ddConfig: {
+//                ddGroup: 'pictureDD'
+//            },
+//            ghostTpl: [
+//                '<tpl for=".">',
+//                	'<div>',
+//                    '<img src="{path}{name}" />',
+//                    '<tpl if="xindex % 4 == 0"><br /></tpl>',
+//                    '</div>',
+//                '</tpl>',
+//                '<div class="count">',
+//                    '{[values.length]} images selected',
+//                '<div>'
+//            ]
+//        });
     	
     }
     

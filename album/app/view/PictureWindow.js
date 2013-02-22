@@ -44,9 +44,11 @@ Ext.define("album.view.PictureWindow", {
                         },
                         title: 'スナップ写真',
                         items: [
-                            {
-                                xtype: 'pictureBrowserPanel'
-                            }
+                                // 初期化していないパネル上でドラッグドロップを初期化しようとすると
+                                // エラーになる
+//                            {
+//                                xtype: 'pictureBrowserPanel'
+//                            }
                         ]
                     },
                     {
